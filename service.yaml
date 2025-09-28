@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: nginx-service
 spec:
-  type: LoadBalancer   # agar cluster ke bahar expose karna ho to "NodePort" ya "LoadBalancer" use karna
+  type: NodePort   # agar cluster ke bahar expose karna ho to "NodePort" ya "LoadBalancer" use karna
   selector:
     app: nginx
   ports:
