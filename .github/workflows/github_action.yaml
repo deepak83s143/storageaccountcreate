@@ -4,7 +4,7 @@ on:
     - main
 jobs:
   test:
-    name: My First Github Action Yaml
+    name: My First Github Action Yaml.
     runs-on: self-hosted
 
     steps:
